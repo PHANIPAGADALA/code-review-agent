@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+fixes_memory.json
+.env
