@@ -1,0 +1,30 @@
+{
+  "Function may raise ZeroDivisionError when divisor b is zero.": {
+    "fix": "def divide_numbers(a, b):\n    return a / b\n\ndef read_config_file(path):\n    f = open(path, \"r\")\n    data = f.read()\n    return data\n\ndef calculate_average(numbers):\n    total = sum(numbers)\n    return total / len(numbers)\n\ndef get_item(my_list, index):\n    return my_list[index]\n\ndef countdown(n):\n    print(n)\n    countdown(n - 1)\n\ndef check_password(password):\n    if password = \"admin123\":\n        return True\n    return False\n\nresult = divide_numbers(10, 0)\nconfig = read_config_file(\"settings.txt\")\navg = calculate_average([])\nitem = get_item([1, 2, 3], 5)",
+    "timestamp": "2026-07-03T19:51:59.171073"
+  },
+  "File opened without using a context manager; may remain unclosed.": {
+    "fix": "def divide_numbers(a, b):\n    return a / b\n\ndef read_config_file(path):\n    f = open(path, \"r\")\n    data = f.read()\n    return data\n\ndef calculate_average(numbers):\n    total = sum(numbers)\n    return total / len(numbers)\n\ndef get_item(my_list, index):\n    return my_list[index]\n\ndef countdown(n):\n    print(n)\n    countdown(n - 1)\n\ndef check_password(password):\n    if password = \"admin123\":\n        return True\n    return False\n\nresult = divide_numbers(10, 0)\nconfig = read_config_file(\"settings.txt\")\navg = calculate_average([])\nitem = get_item([1, 2, 3], 5)",
+    "timestamp": "2026-07-03T19:52:02.323557"
+  },
+  "Division by len(numbers) without checking for empty list leads to ZeroDivisionError.": {
+    "fix": "def divide_numbers(a, b):\n    return a / b\n\ndef read_config_file(path):\n    f = open(path, \"r\")\n    data = f.read()\n    return data\n\ndef calculate_average(numbers):\n    total = sum(numbers)\n    return total / len(numbers)\n\ndef get_item(my_list, index):\n    return my_list[index]\n\ndef countdown(n):\n    print(n)\n    countdown(n - 1)\n\ndef check_password(password):\n    if password = \"admin123\":\n        return True\n    return False\n\nresult = divide_numbers(10, 0)\nconfig = read_config_file(\"settings.txt\")\navg = calculate_average([])\nitem = get_item([1, 2, 3], 5)",
+    "timestamp": "2026-07-03T19:52:09.298764"
+  },
+  "Recursive call lacks a base case, causing infinite recursion and eventual RecursionError.": {
+    "fix": "def divide_numbers(a, b):\n    return a / b\n\ndef read_config_file(path):\n    f = open(path, \"r\")\n    data = f.read()\n    return data\n\ndef calculate_average(numbers):\n    total = sum(numbers)\n    return total / len(numbers)\n\ndef get_item(my_list, index):\n    return my_list[index]\n\ndef countdown(n):\n    print(n)\n    countdown(n - 1)\n\ndef check_password(password):\n    if password = \"admin123\":\n        return True\n    return False\n\nresult = divide_numbers(10, 0)\nconfig = read_config_file(\"settings.txt\")\navg = calculate_average([])\nitem = get_item([1, 2, 3], 5)",
+    "timestamp": "2026-07-03T19:52:14.567563"
+  },
+  "Uses assignment operator '=' instead of comparison '==' in conditional statement.": {
+    "fix": "def divide_numbers(a, b):\n    return a / b\n\ndef read_config_file(path):\n    f = open(path, \"r\")\n    data = f.read()\n    return data\n\ndef calculate_average(numbers):\n    total = sum(numbers)\n    return total / len(numbers)\n\ndef get_item(my_list, index):\n    return my_list[index]\n\ndef countdown(n):\n    print(n)\n    countdown(n - 1)\n\ndef check_password(password):\n    if password = \"admin123\":\n        return True\n    return False\n\nresult = divide_numbers(10, 0)\nconfig = read_config_file(\"settings.txt\")\navg = calculate_average([])\nitem = get_item([1, 2, 3], 5)",
+    "timestamp": "2026-07-03T19:52:17.994529"
+  },
+  "Calling calculate_average with an empty list will trigger a division by zero.": {
+    "fix": "def divide_numbers(a, b):\n    return a / b\n\ndef read_config_file(path):\n    f = open(path, \"r\")\n    data = f.read()\n    return data\n\ndef calculate_average(numbers):\n    total = sum(numbers)\n    return total / len(numbers)\n\ndef get_item(my_list, index):\n    return my_list[index]\n\ndef countdown(n):\n    print(n)\n    countdown(n - 1)\n\ndef check_password(password):\n    if password = \"admin123\":\n        return True\n    return False\n\nresult = divide_numbers(10, 0)\nconfig = read_config_file(\"settings.txt\")\navg = calculate_average([])\nitem = get_item([1, 2, 3], 5)",
+    "timestamp": "2026-07-03T19:52:18.033911"
+  },
+  "Accessing list element with out-of-range index may raise IndexError.": {
+    "fix": "def divide_numbers(a, b):\n    return a / b\n\ndef read_config_file(path):\n    f = open(path, \"r\")\n    data = f.read()\n    return data\n\ndef calculate_average(numbers):\n    total = sum(numbers)\n    return total / len(numbers)\n\ndef get_item(my_list, index):\n    return my_list[index]\n\ndef countdown(n):\n    print(n)\n    countdown(n - 1)\n\ndef check_password(password):\n    if password = \"admin123\":\n        return True\n    return False\n\nresult = divide_numbers(10, 0)\nconfig = read_config_file(\"settings.txt\")\navg = calculate_average([])\nitem = get_item([1, 2, 3], 5)",
+    "timestamp": "2026-07-03T19:52:20.834171"
+  }
+}
